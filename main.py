@@ -1,5 +1,9 @@
 '''Train CIFAR10 with PyTorch.'''
 from __future__ import print_function
+import sys
+
+print ("Starting application ...")
+print (sys.version)
 
 import torch
 import torch.nn as nn
